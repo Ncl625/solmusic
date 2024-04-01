@@ -1,0 +1,202 @@
+@import '../sass/var';
+@import '../sass/vendor';
+@import '../sass/mixin.scss';
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 300;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+button:hover {
+    @include hovereffect2;
+}
+
+.main_header {
+    width: 100vw;
+    line-height: 10rem;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) $main-color;
+
+    & .navbar-brand {
+        color: $text-color;
+        animation: music 1s linear infinite;
+        animation-direction: alternate;
+
+        & .fas {
+            font-size: 4rem;
+            
+        }
+
+        @keyframes music {
+            from {
+                transform: rotate(5deg);
+            } to {
+                transform: rotate(-5deg);
+            }
+        }
+
+        &:hover {
+            filter: drop-shadow(0 1.5rem 1rem rgba(255, 255, 255, 0.5));
+        }
+    }
+
+
+    & .navbar-nav {
+        padding-left: 150px;
+
+        & .nav-item .nav-link {
+            font-size: 1.6rem;
+            color: $text-color;
+            text-transform: uppercase;
+            padding-right: 3rem;
+        }
+
+        
+    }
+
+    & .nav-item:hover > .nav-link,
+    & .navbar-brand:hover {
+        color: $primary-color;
+    }
+
+    & .my-btn {
+        @include my-btn;
+
+        &:hover {
+            @include hovereffects;
+        }
+    }
+    
+}
+
+// header hero part
+
+
+.header_hero {
+    width: 100%;
+    height: 80vh;
+    background: $main-color;
+
+    &_text {
+        // width: inherit;
+        height: 80vh;
+        // background: black;
+        @include content_center(flex-start);
+
+        & h2 {
+            color: $text-color;
+            font-size: 7rem;
+            margin-bottom: 3rem;
+            line-height: 150%;
+            font-weight: 600;
+
+            & span {
+                color: $primary-color;
+                text-transform: capitalize;
+            }
+        }
+
+        & p {
+            font-size: 1.8rem;
+            color: $text-color;
+            margin-bottom: 5rem;
+        }
+
+        & .header_text_btn {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+
+            & a {
+                @include my-btn;
+
+                &:hover {
+                    @include hovereffects;
+                }
+            }
+
+            & #btn-2 {
+                margin-left: 2rem;
+                background-color: rgba(255, 255, 255, 0.5);
+
+                &:hover {
+                    @include hovereffects;
+                }
+            }
+        }
+    }
+
+
+    // images hero part 
+
+    & .header_hero_img {
+        height: 70vh;
+        @include content_center(flex-end);
+        animation: anime-hero 10s linear infinite alternate;
+        @keyframes anime-hero {
+            from {
+                transform: scale(0.9);
+            } to {
+                transform: scale(1);
+            }
+        }
+
+        & img {
+            filter: drop-shadow(0 1.5rem 1rem rgba(0, 0, 0, 0.8));
+        }
+    }
+}
+
+
+// responsive
+
+@media (max-width:990px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    .main_header {
+
+        line-height: 5rem;
+        text-align: center;
+        padding: 0 2rem;
+
+        & .navbar-nav {
+            padding-left: 3rem;
+        }
+
+
+        .navbar .navbar-toggler {
+            border-color: rgba(255, 255, 255, 0.5);
+            color: darkgray;      
+        }
+    }
+
+
+    .header_hero_text .header_text_btn {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .header_hero_text .header_text_btn a {
+        display: block;
+        text-align: center;
+    }
+
+    .header_hero_text .header_text_btn #btn-2 {
+        margin-top: 2rem;
+        margin-left: 0%;
+    }
+
+    .header_hero .header_hero_img {
+        display: none;
+    }
+}
