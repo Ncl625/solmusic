@@ -46,7 +46,7 @@ export default {
                     
                 }
                 localStorage.setItem('token',res.data.token)
-                alert(res.data.message)
+                // alert(res.data.message)
 
                 this.$router.push({ name: 'home'})
             })
