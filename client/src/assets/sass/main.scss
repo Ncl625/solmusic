@@ -76,6 +76,10 @@ button:hover {
     
 }
 
+.site-btn:hover {
+    @include hovereffects
+}
+
 // header hero part
 
 
