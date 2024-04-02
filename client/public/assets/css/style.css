@@ -140,6 +140,7 @@ Commom elements
 	background: #fc0254;
 	color: #fff;
 	line-height: normal;
+	transition: all 0.3s ease 0s;
 	cursor: pointer;
 	text-align: center;
 }
