@@ -993,6 +993,7 @@ Category page
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 auto;
 	flex: 0 0 auto;
+	transition: all 0.3s ease 0s;
 }
 
 .player_button::after {
