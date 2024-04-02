@@ -26,7 +26,7 @@
 					</div>
 				</div>
 				<div id="wavePlayer" class="clierfix">
-					<div id="audiowave" data-waveurl="music-files/8.mp3"></div>
+					<div id="audiowave" data-waveurl="../assets/music-files/8.mp3"></div>
 					<div id="currentTime"></div>
 					<div id="clipTime"></div>
 					<!-- Player Controls -->
@@ -89,7 +89,7 @@
 										<div class="col-xl-7 col-lg-12 col-md-7">
 											<div class="single_player_container">
 												<div class="single_player">
-													<div class="jp-jplayer jplayer" data-ancestor=".jp_container_1" data-url="music-files/1.mp3"></div>
+													<div class="jp-jplayer jplayer" data-ancestor=".jp_container_1" data-url="../assets/music-files/1.mp3"></div>
 													<div class="jp-audio jp_container_1" role="application" aria-label="media player">
 														<div class="jp-gui jp-interface">
 					
@@ -137,7 +137,7 @@
 										<div class="col-xl-7 col-lg-12 col-md-7">
 											<div class="single_player_container">
 												<div class="single_player">
-													<div class="jp-jplayer jplayer" data-ancestor=".jp_container_2" data-url="music-files/2.mp3"></div>
+													<div class="jp-jplayer jplayer" data-ancestor=".jp_container_2" data-url="../assets/music-files/2.mp3"></div>
 													<div class="jp-audio jp_container_2" role="application" aria-label="media player">
 														<div class="jp-gui jp-interface">
 
@@ -190,7 +190,7 @@
 						<h4>Jennifer Brown</h4>
 						<p>One Night in Ibiza</p>
 						<div class="single_player">
-							<div class="jp-jplayer jplayer" data-ancestor=".jp_container_8" data-url="music-files/3.mp3"></div>
+							<div class="jp-jplayer jplayer" data-ancestor=".jp_container_8" data-url="../assets/music-files/3.mp3"></div>
 							<div class="jp-audio jp_container_8" role="application" aria-label="media player">
 								<div class="jp-gui jp-interface">
 									<!-- Player Controls -->
@@ -233,7 +233,7 @@
 						<h4>Jennifer Brown</h4>
 						<p>One Night in Ibiza</p>
 						<div class="single_player">
-							<div class="jp-jplayer jplayer" data-ancestor=".jp_container_9" data-url="music-files/4.mp3"></div>
+							<div class="jp-jplayer jplayer" data-ancestor=".jp_container_9" data-url="../assets/music-files/4.mp3"></div>
 							<div class="jp-audio jp_container_9" role="application" aria-label="media player">
 								<div class="jp-gui jp-interface">
 									<!-- Player Controls -->
@@ -276,7 +276,7 @@
 						<h4>Jennifer Brown</h4>
 						<p>One Night in Ibiza</p>
 						<div class="single_player">
-							<div class="jp-jplayer jplayer" data-ancestor=".jp_container_10" data-url="music-files/5.mp3"></div>
+							<div class="jp-jplayer jplayer" data-ancestor=".jp_container_10" data-url="../assets/music-files/5.mp3"></div>
 							<div class="jp-audio jp_container_10" role="application" aria-label="media player">
 								<div class="jp-gui jp-interface">
 									<!-- Player Controls -->
@@ -319,7 +319,7 @@
 						<h4>Jennifer Brown</h4>
 						<p>One Night in Ibiza</p>
 						<div class="single_player">
-							<div class="jp-jplayer jplayer" data-ancestor=".jp_container_11" data-url="music-files/7.mp3"></div>
+							<div class="jp-jplayer jplayer" data-ancestor=".jp_container_11" data-url="../assets/music-files/7.mp3"></div>
 							<div class="jp-audio jp_container_11" role="application" aria-label="media player">
 								<div class="jp-gui jp-interface">
 									<!-- Player Controls -->
