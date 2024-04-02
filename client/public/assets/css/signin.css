@@ -87,7 +87,7 @@ input{
 ::placeholder{
     color: #252424;
 }
-button{
+button .signIn{
     margin-top: 50px;
     width: 100%;
     background-color: #ffffff;

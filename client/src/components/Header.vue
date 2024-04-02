@@ -19,7 +19,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <router-link :to="{ name: 'home' }" class="nav-link">Home</router-link>
+                    <router-link :to="{ name: 'home' }" class="nav-link active">Home</router-link>
                     <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
                   </li>
                   <li class="nav-item">
@@ -37,11 +37,6 @@
                 </ul>
                 <router-link :to="{ name: 'signin' }" class="my-btn" v-if="!isLoggedIn">Sign in</router-link>
                 <router-link to="" class="my-btn" v-if="isLoggedIn" @click="logout">Sign out</router-link>
-                <!-- <form class="d-flex">
-                  <button class="my-btn" type="submit">
-                     Sign in
-                  </button>
-                </form> -->
               </div>
             </div>
           </nav>
