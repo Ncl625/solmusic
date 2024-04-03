@@ -178,9 +178,10 @@ button:hover {
         }
 
 
-        .navbar .navbar-toggler {
+        & .navbar .navbar-toggler {
             border-color: rgba(255, 255, 255, 0.5);
-            color: darkgray;      
+            color: darkgray;     
+            transition: all 0.3s ease 0s;
         }
     }
 

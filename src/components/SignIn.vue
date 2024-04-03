@@ -14,7 +14,7 @@
         <label for="password">Password</label>
         <input type="password" v-model="user.password" placeholder="Password" name="password" required>
         
-        <button @click="signIn()">Sign In</button>
+        <button class="signIn" @click="signIn()">Sign In</button>
         <div class="social">
             <!-- <div class="go"><i class="fab fa-google"></i>  Google</div>
             <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div> -->
