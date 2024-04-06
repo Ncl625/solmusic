@@ -7,11 +7,11 @@
 
 	<!-- Header section -->
 	<div class="main_header">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
+          <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
               <router-link to="" class="navbar-brand"><i class="fas fa-headphones-alt"></i></router-link>
               <router-link :to="{ name: 'home' }" class="navbar-brand"><img src="../assets/img/logo.png" alt=""></router-link>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
